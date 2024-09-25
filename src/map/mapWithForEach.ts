@@ -1,4 +1,4 @@
-export default function map(array: any[], func: (value: number) => number) {
+export default function map(array: any[], func: (value: any) => any) {
   var newArray: any[] = [];
 
   array.forEach((element) => {

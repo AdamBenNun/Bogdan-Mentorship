@@ -32,8 +32,4 @@ describe("test map", () => {
     const actualResult = map(array, (value) => ({ [value]: 1 }));
     expect(actualResult).toEqual(expectedResult);
   });
-
-  it("should return a new array", () => {
-    const array = [1, 2, 3];
-  });
 });
